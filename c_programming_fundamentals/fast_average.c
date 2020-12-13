@@ -30,11 +30,16 @@ int main()
         total_sum = total_sum + number;
     }
 
+    printf("total sum %d \n", total_sum);
+    printf("count %d \n", count);
+
     // calculate the average
     avg = (double) total_sum / (double) count;
 
     printf("The average weight of the northern elephant seal (Mirounga angustirostris) is %lf", avg);
     
+    printf("\n\n");
+
     // closes the stream
     fclose(file);
   
