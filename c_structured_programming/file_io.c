@@ -44,7 +44,7 @@ int main()
     int i, sz = MAX_HW;
     FILE *ifp;
     int data[MAX_HW] = {100, 0};
-    ifp = fopen("./c_structured_programming/myhw", "r");
+    ifp = fopen("myhw", "r");
     read_data(ifp, data, &sz);
     printf("my %d homework scores are: ", sz);
     print_data(data, sz);
