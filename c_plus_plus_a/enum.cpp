@@ -12,6 +12,9 @@ enum class AnswerClassEnum {YesN, No, Maybe};
 
 enum class CarType:short{Sedan, Coupe, SUV, Convertible};
 
+enum UrlTableErrors { kOK = 0, kErrorOutOfMemory, kErrorMalformedInput, }; 
+enum AlternateUrlTableErrors { OK = 0, OUT_OF_MEMORY = 1, MALFORMED_INPUT = 2, }; 
+
 int main(void)
 {
     int i = Answers::Yess;
